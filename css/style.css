@@ -5,11 +5,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-    background-color: red;
+.first-container, .second-container, .third-container{
     position: relative;
     width: 100%;
     height: 100vh;
+}
+
+.first-container{
+    background-color: red;
+}
+
+.second-container{
+    background-color: green;
+}
+
+.third-container{
+    background-color: yellow;
 }
 
 /* menu di navigazione */
@@ -54,4 +65,8 @@ nav{
     left: 50%;
     bottom: 50px;
     transform: translate(-50%);
+}
+
+.third-container *{
+    color: green;
 }
